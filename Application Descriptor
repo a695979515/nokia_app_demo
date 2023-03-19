@@ -1,0 +1,9 @@
+MIDlet-1: Nokia_app,,com.demo.Main
+MIDlet-Jar-URL: Nokia_app.jar
+Nokia-UI-Enhancement: CanvasHasBackground
+MIDlet-Icon: /logo.png
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 1.0.0
+MIDlet-Name: Nokia_app
+MIDlet-Vendor: Nokia
+MicroEdition-Profile: MIDP-2.0
