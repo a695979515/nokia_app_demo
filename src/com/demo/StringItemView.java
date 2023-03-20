@@ -63,7 +63,7 @@ public class StringItemView
             textField.setString("");
             if (text != null && !("").equals(text.trim())) {
 
-                StringItem stringItem = new StringItem("Äã", text);
+                StringItem stringItem = new StringItem("ï¿½ï¿½", text);
                 stringItem.setFont(Font.getFont(Font.FACE_SYSTEM,
                         Font.STYLE_PLAIN, Font.SIZE_SMALL));
                 this.set(count, stringItem);
@@ -128,8 +128,8 @@ public class StringItemView
 
             //request header
             hcon.setRequestProperty("Content-Type", "application/json;charset=UTF-8");
-            hcon.setRequestProperty("Content-Type", "application/json;charset=UTF-8");
-
+            hcon.setRequestProperty("Authorization", "Bearer [OPENAI_API_KEY]");
+//            hcon.setRequestProperty("Authorization", "Bearer xxxxxxxxxxxx");
 
             //request body
 //            String param = "{\n" +
